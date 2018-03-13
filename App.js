@@ -11,9 +11,12 @@ import SearchPage from "./src/screens/SearchPage";
 import SearchResults from "./src/screens/SearchResults";
 import ApartmentDetail from "./src/screens/ApartmentDetail";
 
-const App = StackNavigator({
-    Home: { screen: SearchPage },
-    Results: { screen: SearchResults },
-    ApartmentDetail: { screen: ApartmentDetail }
-});
+const App = StackNavigator(
+    {
+        // Home: { screen: SearchPage },
+        // Results: { screen: SearchResults },
+        ApartmentDetail: { screen: ApartmentDetail }
+    },
+    // { headerMode: "screen" }
+);
 export default App;
