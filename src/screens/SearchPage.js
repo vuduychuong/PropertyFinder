@@ -31,7 +31,8 @@ function urlForQueryAndPage(key, value, pageNumber) {
 
 export default class SearchPage extends Component<{}> {
     static navigationOptions = {
-        title: "Property Finder"
+        title: "Property Finder",
+        header: null
     };
 
     constructor(props) {
